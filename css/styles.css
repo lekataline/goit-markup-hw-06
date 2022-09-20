@@ -1050,6 +1050,12 @@ textarea::placeholder {
   margin-bottom: 30px;
 }
 
+/* .modal-checkbox-input:focus + .modal-checkbox-icons {
+  outline: 1px solid rgb(8, 70, 192);
+  outline-offset: 1px;
+  border-radius: 2px;
+} */
+
 .modal-checkbox-icons {
   margin-right: 7px;
   border-radius: 2px;
@@ -1081,6 +1087,7 @@ textarea::placeholder {
   display: block;
 
   color: var(--main-txt-cl);
+  user-select: none;
 }
 
 .modal-checkbox-link {
