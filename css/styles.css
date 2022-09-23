@@ -690,8 +690,12 @@ ul {
 
 .footer-list {
   display: flex;
-  gap: 70px;
   align-items: baseline;
+}
+
+.footer-contact {
+  margin-right: 70px;
+  flex-grow: 1;
 }
 
 .logo-footer {
@@ -730,10 +734,13 @@ ul {
 
 /* social footer */
 
+.socials-footer {
+  margin-right: 93px;
+}
+
 .socials-footer,
 .subscription {
   display: flex;
-  margin-right: auto;
   justify-content: start;
   align-items: flex-start;
   flex-direction: column;
@@ -774,12 +781,12 @@ ul {
 
 .footer-form {
   display: flex;
+  gap: 12px;
 }
 
 .footer-form-input {
   height: 50px;
   width: 358px;
-  margin-right: 12px;
 
   padding-top: 15px;
   padding-right: 16px;
@@ -934,6 +941,7 @@ input[name='mail']::placeholder {
   |============================
 */
 .modal-title {
+  display: block;
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -949,10 +957,14 @@ input[name='mail']::placeholder {
   display: flex;
 }
 
+.modal-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .register-form-group {
   position: relative;
   display: block;
-  margin-top: 12px;
+  /* margin-top: 12px; */
   margin-bottom: 20px;
 }
 
@@ -960,7 +972,6 @@ input[name='mail']::placeholder {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 
 .register-form-label {
@@ -1046,7 +1057,7 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
 
-  margin-right: 7px;
+  /* margin-right: 7px; */
   margin-bottom: 30px;
 }
 
